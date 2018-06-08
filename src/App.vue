@@ -13,7 +13,8 @@ export default {
 </script>
 
 <style>
-.container {
+page {
+    background: #f6f8f7;
     height: 100%;
 }
 </style>
