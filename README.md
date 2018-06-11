@@ -1,8 +1,6 @@
 # demo
 
-
-
-####原理分析：
+###原理分析：
 
 维护一个 keepAliveList, 每次导航切换时，假如当前点击的nav不在keepAliveList中，则代表未点击过，往keepAliveList中push当前点击的nav数据。
 
@@ -34,7 +32,7 @@ computed: {
 },
 ```
 
-在template中，首先,通过v-if来实现点击后才加载点击的组件。点击过后当前点击对应的组件的v-if的条件则永久为true，不会重复加载。
+在template中，首先,通过v-if来实现点击后才渲染点击的组件。点击过后当前点击对应的组件的v-if的条件则永久为true，不会重复加载。
 其次，通过v-show来控制菜单切换时组件的隐藏和显示
 
 ``` javascript
