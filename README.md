@@ -19,7 +19,7 @@ methods: {
 },
 ```
 
-同时，添加一个computed，通过keepAliveList来判断当前点击对应的组件是否需要加载
+同时，添加一个computed，通过keepAliveList来判断当前点击对应的组件是否需要渲染
 ``` javascript
 computed: {
     isAlive() {
@@ -32,7 +32,7 @@ computed: {
 },
 ```
 
-在template中，首先,通过v-if来实现点击后才渲染点击的组件。点击过后当前点击对应的组件的v-if的条件则永久为true，不会重复加载。
+在template中，首先,通过v-if来实现点击后才渲染点击的组件。点击过后当前点击对应的组件的v-if的条件则永久为true，不会重复渲染。
 其次，通过v-show来控制菜单切换时组件的隐藏和显示
 
 ``` javascript
