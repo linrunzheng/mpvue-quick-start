@@ -3,8 +3,8 @@ import App from '@/App'
 import store from '@/store/index'
 import fly from '@/http/index'
 
-import MpvueRouterPatch from 'mpvue-router-patch'
-Vue.use(MpvueRouterPatch)
+/* import MpvueRouterPatch from 'mpvue-router-patch'
+Vue.use(MpvueRouterPatch) */
 
 Vue.prototype.$store = store
 Vue.prototype.$http = fly

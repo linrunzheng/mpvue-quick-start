@@ -9,8 +9,8 @@
 	},
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
-	"appid": "wx2be4cba77da3e7f9",
-	"projectname": "ym-shop",
+	"appid": "touristappid",
+	"projectname": "demo",
 	"condition": {
 		"search": {
 			"current": -1,

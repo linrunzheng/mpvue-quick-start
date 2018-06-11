@@ -12,9 +12,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import url('./style/iconfont.scss');
 page {
     background: #f6f8f7;
     height: 100%;
+    > div {
+        min-height: 100%;
+    }
 }
 </style>
